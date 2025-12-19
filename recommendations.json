@@ -1,0 +1,38 @@
+{
+  "beach": [
+    {
+      "name": "Maldives Beach",
+      "imageUrl": "images/beach1.jpg",
+      "description": "A tropical paradise with crystal clear water and white sand."
+    },
+    {
+      "name": "Hawaii Beach",
+      "imageUrl": "images/beach2.jpg",
+      "description": "Famous for surfing, sunsets, and beautiful coastlines."
+    }
+  ],
+  "temple": [
+    {
+      "name": "Golden Temple",
+      "imageUrl": "images/temple1.jpg",
+      "description": "A sacred place known for peace and spiritual beauty."
+    },
+    {
+      "name": "Angkor Wat",
+      "imageUrl": "images/temple2.jpg",
+      "description": "Historic temple complex and cultural heritage site."
+    }
+  ],
+  "country": [
+    {
+      "name": "Pakistan",
+      "imageUrl": "images/country1.jpg",
+      "description": "A country of mountains, culture, and natural beauty."
+    },
+    {
+      "name": "United States",
+      "imageUrl": "images/country2.jpg",
+      "description": "Known for diverse landscapes and modern cities."
+    }
+  ]
+}

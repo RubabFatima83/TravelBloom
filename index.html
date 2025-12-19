@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
+            <h3>TravelBloom</h3>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search: beach, temple, country">
+
+            <button class="search-btn" onclick="searchDestination()">Search</button>
+            <button class="clear-btn" onclick="clearResults()">Clear</button>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <!-- LEFT CONTENT -->
+        <div class="hero-content">
+            <h1>EXPLORE DREAM DESTINATION</h1>
+            <p>
+                It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, 
+                while pursuing the desired destination that captivates the heart and ignores a sense of wonder.
+            </p>
+            <button>BOOK NOW</button>
+        </div>
+
+        <!-- RIGHT SCROLLABLE RECOMMENDATIONS -->
+        <div class="recommendations" id="recommendations">
+            <!-- Cards JS se yahan inject honge -->
+        </div>
+
+    </header>
+
+    <footer>
+        <p>&copy; 2025 TravelBloom</p>
+    </footer>
+
+</body>
+
+</html>
